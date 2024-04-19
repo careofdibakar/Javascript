@@ -5,10 +5,11 @@ const alphabetPrint = (c1, c2) => {
   let alphaString = "";
 
     for (let i = c1Asci; i <= c2Asci; i++) {
-      alphaString += String.fromCharCode(i) + " ";
+      // alphaString += String.fromCharCode(i) + " ";
+      process.stdout.write(String.fromCharCode(i) + " ")
     }
 
-  console.log(alphaString);
+  // console.log(alphaString);
 };
 
 alphabetPrint("h", "u");
