@@ -1,7 +1,7 @@
-function isPalindrome(str) {
+function isPalindrome(S) {
   // write your code here
-  const mainStr = str;
-  const reverseStr = str.split("").reverse().toString().replace(/,/g, "");
+  const mainStr = S;
+  const reverseStr = S.split("").reverse().toString().replace(/,/g, "");
   console.log(mainStr);
   console.log(reverseStr);
 
