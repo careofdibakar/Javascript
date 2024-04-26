@@ -16,6 +16,6 @@ if (
     `Why you feel ${user_condition}, ${user_name}? Is there any problem?`
   );
   console.log(
-    `Don't worry ${user_name}! ${user_condition_bad} will solved certainly`
+    `Don't worry ${user_name}! ${user_condition_bad} will be solved certainly`
   );
 }
