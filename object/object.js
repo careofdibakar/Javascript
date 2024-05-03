@@ -11,8 +11,13 @@
 const obj = {
   name: "John",
   sayHello: function () {
-    console.log("Hello, my name is", this.name);
+    console.log("Hello, my name is", this.name); //Hello, my name is John
   },
 };
 
 obj.sayHello();
+
+obj.greet = () => {
+  console.log(`How ary you ${this.name}`); //How ary you undefined
+};
+obj.greet();
